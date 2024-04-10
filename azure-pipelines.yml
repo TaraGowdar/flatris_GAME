@@ -6,8 +6,7 @@
 trigger:
 - master
 
-pool:
-  vmImage: ubuntu-latest
+pool: azure_trial_agent_pool   
 
 steps:
 - task: NodeTool@0
